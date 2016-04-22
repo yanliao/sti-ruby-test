@@ -64,5 +64,5 @@ set -e
 
 echo "== Assemble ==="
 getent ahosts frontend-yantan.1ec1.dev-preview-int.openshiftapps.com || echo "Unknown host"
-curl -s 'frontend-yantan.1ec1.dev-preview-int.openshiftapps.com' | fgrep Welcome
+curl -s 'frontend-yantan.1ec1.dev-preview-int.openshiftapps.com' | fgrep No
 cat /etc/resolv.conf
